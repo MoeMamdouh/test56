@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "jetify"
   },
   "dependencies": {
+    "jetifier": "^1.6.2",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
-    "react-native": "0.59"
+    "react-native": "0.59",
+    "react-navigation": "^3.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
@@ -17,6 +20,7 @@
     "babel-jest": "^24.8.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.55.0",
+    "react-native-gesture-handler": "1.0.16",
     "react-test-renderer": "16.8.3"
   },
   "jest": {
