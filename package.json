@@ -11,7 +11,7 @@
     "jetifier": "^1.6.2",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
-    "react-native": "0.59",
+    "react-native": "0.62",
     "react-navigation": "^3.11.0"
   },
   "devDependencies": {
